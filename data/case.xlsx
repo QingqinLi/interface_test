@@ -1,0 +1,2 @@
+模块	用例名称	请求方式	url	请求参数	期望结果断言	期望结果	是否通过
+三方接口	weather接口测试responsecode	get	http://coapi-old.moji.com/whapi/json/globalbyid?timestamp=1585820318&token=814e15f90f9afe34ef95dbcaa036f76c&cityId=111955&key=b6e920d00ec0b3343389c8b831d26151		包含	rc:0	
