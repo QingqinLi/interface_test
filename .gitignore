@@ -6,3 +6,5 @@ log/logs/*
 */__pycache__/*
 __pycache__/
 */html_report/
+report/allure_reports/
+report/allure_report/

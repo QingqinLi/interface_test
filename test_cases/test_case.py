@@ -21,6 +21,7 @@ class TestCommon:
     def test_excel_case(self, mokuai, case_name, url, data_method, data, result_method, result):
         # print(mokuai, case_name, url, data_method, data, result_method, result)
         # 应该再封装一个base, case层调用base的方法即可
+        allure.description(mokuai+" "+case_name)
         if data_method == 'get':
             response = requests.get(url).json()
         elif data_method == 'post':
