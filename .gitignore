@@ -1,0 +1,5 @@
+*.html
+*.png
+.idea/
+log/logs/*
+*.log
