@@ -18,7 +18,7 @@ class RunTest:
         pass
 
     def run_test(self):
-        test_dir = os.path.join(BASE_DIR, 'test_cases/')
+        test_dir = os.path.join(BASE_DIR, 'test_cases/test_db_case.py')
         html_report = os.path.join(BASE_DIR, 'report/html_report/')
         html_report += self.time_stamp+'.html'
         allure_report = os.path.join(BASE_DIR, 'report/allure_report')
